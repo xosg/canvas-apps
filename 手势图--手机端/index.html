@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>移动端手势密码</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            background-color: #000;
+        }
+
+        *{
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+<script type="text/javascript" src="H5lock.js"></script>
+<script type="text/javascript">
+    new H5lock({
+        chooseType: 3
+    }).init();
+
+    alert('请打开chrome的devTools以模拟触屏输入');
+</script>
+
+</body>
+</html>
